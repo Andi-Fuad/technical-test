@@ -19,7 +19,7 @@ This is a minimal FastAPI service that leverages a Large Language Model (LLM) to
 1.  **Clone the repository (if applicable) or create the project structure:**
     ```bash
     git clone https://github.com/Andi-Fuad/technical-test.git
-    cd case 3
+    cd technical-test/case 3
     ```
 2.  **Create and activate a virtual environment:**
     ```bash
@@ -91,6 +91,16 @@ You can test the API using `curl`, Postman, Insomnia, or by accessing the intera
     2. **Expand the Endpoint:** Click on the POST /recommend endpoint to expand its details.
     3. **Try it Out:** Click the "Try it out" button on the right side of the endpoint description.
     4. **Edit Request Body:** You can now edit the example value in the "Request body" field. Modify the gender, age, and symptoms to your desired test values.
+        Example: 
+        ```bash
+        {
+          "gender": "female",
+          "age": 62,
+          "symptoms": [
+            "pusing", "mual", "sulit berjalan"
+          ]
+        }
+        ```
     5. **Execute:** Click the "Execute" button to send the request.
     6. **View Response:** The recommended_department will be displayed in the "Response body" section below, along with the HTTP status code.
 
